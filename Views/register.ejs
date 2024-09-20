@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Material Dashboard 2 PRO by Creative Tim</title>
+    <!-- google-icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- favicon-icon -->
+    <link rel="icon" href="img/favicon.webp" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- google-fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- style-css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 24;
+      }
+      .material-symbols-outlined.none {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="background">
+      <div class="login-form-warrper d-f justify-center align-center">
+        <div class="w-3">
+          <form action="/signUpData" class="form-wrapper" method="post">
+            <h2>Signup Form</h2>
+            <div class="btn d-f">
+              <div class="w-6 p-none s-user">
+                <div
+                  class="login-btn none-back d-f align-center justify-center"
+                >
+                  <a href="/signIn">
+                    <span>Login</span>
+                  </a>
+                </div>
+              </div>
+              <div class="w-6 p-none s-user">
+                <div class="signup-btn fill d-f align-center justify-center">
+                  <a href="/signUp">
+                    <span>Sign up</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="name-class d-f">
+              <div class="w-6 user b-none s-user p-none">
+                <input
+                  type="name"
+                  name="fName"
+                  placeholder="Enter First Name"
+                  required
+                />
+              </div>
+              <div class="w-6 user b-none s-user p-none">
+                <input
+                  type="name"
+                  name="lName"
+                  placeholder="Enter Last Name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="user b-none">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail Address"
+                required
+              />
+            </div>
+            <div class="user b-none">
+              <input
+                type="password"
+                name="Password"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <div class="user b-none">
+              <input
+                type="password"
+                name="conPass"
+                placeholder="Confirm password"
+                required
+              />
+            </div>
+            <div class="sub-btn m-ttoopp s-btn">
+              <button type="submit">Sign up</button>
+            </div>
+            <div class="not">
+              <a href="./login.ejs">
+                <span>Are you a member? <b>Login now</b></span>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- loging-form -->
+  </body>
+</html>

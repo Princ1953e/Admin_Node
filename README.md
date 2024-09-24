@@ -36,4 +36,4 @@ Contributing:
 
 Contributions are welcome! Please follow the project's guidelines for contributing.
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](../Desktop/Screenshot 2024-09-17 at 11.22.08 AM?raw=true "Optional Title")
